@@ -12,4 +12,4 @@
  2. RUN PHASE 3.(Recognizes face and Lock pc id unknown face found)
  
  ### *More features coming soon ...*
- [Twitter](https://twitter.com/pravindesai_)
+ Follow for update : [Twitter](https://twitter.com/pravindesai_)
