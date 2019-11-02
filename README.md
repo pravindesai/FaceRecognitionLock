@@ -1,9 +1,9 @@
 # FaceRecognitionLock
 
 This Code 
-*Collects face data of user in PHASE 1
-*Train Model for Face Recognition in PHASE 2
-*Recognize the face in PHASE 3
+1.Collects face data of user in PHASE 1
+2.Train Model for Face Recognition in PHASE 2
+3.Recognize the face in PHASE 3
 	1.if unknown face found locks the windows pc.
 
 HOW TO USE:
