@@ -6,7 +6,7 @@
 3. Recognize the face in PHASE 3
 	1. if unknown face found locks the windows pc.
 
-##H OW TO USE:
+## HOW TO USE:
  0. Install needed libraries.
  1. RUN PHASE 1.(Add face id and user name)
  2. RUN PHASE 3.(Recognizes face and Lock pc id unknown face found)
