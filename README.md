@@ -9,7 +9,7 @@
 ## HOW TO USE:
  0. Install needed libraries.
  1. RUN PHASE 1.(Add face id and user name)
- 2. RUN PHASE 3.(Recognizes face and Lock pc id unknown face found)
+ 2. RUN PHASE 3.(Recognizes face and Lock pc if unknown face found)
  
  ### *More features coming soon ...*
  Follow for update : [Twitter](https://twitter.com/pravindesai_)
