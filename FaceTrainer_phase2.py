@@ -1,13 +1,11 @@
+import os
+
 import cv2
 import numpy as np
 from PIL import Image
-import os
-names={}
-with open('nameList.txt') as f:
-    for line in f:
-        k,v=line.strip().split(' ')
-        names[int(k)]=v
-print(names)
+
+names = {}
+
 
 class Train():
     def TrainModel(self):
@@ -20,7 +18,7 @@ class Train():
             faceSamples = []
             ids = []
             for imagePath in imagePaths:
-                #print(imagePath)
+                # print(imagePath)
                 PIL_img = Image.open(imagePath).convert('L')  # grayscale
                 img_numpy = np.array(PIL_img, 'uint8')
                 id = int(os.path.split(imagePath)[-1].split(".")[1])
@@ -39,5 +37,4 @@ class Train():
         # Print the numer of faces trained and end program
         print("\n [INFO] {0} faces trained. Exiting Program".format(len(np.unique(ids))))
 
-
-#Train().TrainModel()
+# Train().TrainModel()
